@@ -1,0 +1,301 @@
+/*common settings*/
+#content td, #login_form td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	/*color: #3B3E39;*/
+}
+
+#login_form img {
+    position: relative;
+    top: 2px; /*bottom:0; left: 0; right:0;*/
+    margin: auto;
+}
+
+#login_form a {
+	text-decoration: none;
+}
+
+/* content1 - table content*/
+.content1{
+	width: 100%;
+	border: 1px solid #206020;
+	padding: 0;
+	border-spacing: 0;	
+	margin: 0;
+	color: #000000;
+	border-collapse: collapse;
+	background-color: #ffffff;	
+}
+.content2{
+	width: 60%;	
+	border: 1px solid #206020;
+	padding: 0;
+	border-spacing: 0;	
+	margin: auto;
+	color: #000000;
+	border-collapse: collapse;
+	background-color: #ffffff;	
+}
+
+table.content1 td {
+	padding: 5px;
+}
+
+select
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #3B3E39;	
+	background-color: #FFFFFF;
+	border: 1px solid;
+}
+
+/* Header 1 - Main header  */
+tr.header1 {
+	background-color: #66a262;
+	background-image: url("../images/bg_header1.png");
+	background-repeat: repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+	padding-left: 10px;
+	height: 32px;
+}
+
+tr.header1 a { color: #ffffff; text-decoration: none; }
+tr.header1 a:hover { color: #eeffee; text-decoration: underline; }	
+
+td.header1 
+{
+	background-color: #ffffff;
+	background-image: url("../images/bg_header1.png");
+	background-repeat: repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+	padding-left: 10px;
+	height: 22px;
+}	
+
+/* Header 2 - Sub header */
+tr.header2 
+{
+	background-color: #E3E2DA;
+	background-image: url("../images/bg_blue.gif");
+	background-repeat: repeat-x;
+	font-weight: bold;
+}
+
+td.header2 
+{
+	background-color: #E3E2DA;
+	background-image: url("../images/bg_blue.gif");
+	background-repeat: repeat-x;
+	font-weight: bold;
+}
+
+td.header2 a { color: #579000; text-decoration: none; }
+td.header2 a:link { text-decoration: none; }
+td.header2 a:visited { text-decoration: none; }
+td.header2 a:active { color: #7F7D6C; text-decoration: none; }
+td.header2 a:hover { color: red; text-decoration: underline; }
+
+td.header21 
+{
+	text-align: center;
+	background-color: #E3E2DA;
+	background-image: url("../images/bg_blue.gif");
+	background-repeat: repeat-x;
+	font-weight: bold;
+}
+
+/* Header of posts */
+.postheader {
+	background-color: #F5F5F5;
+}
+.postheader1  {
+	height:30px;
+	background-color: #F5F5F5;
+}
+.postheader2{
+	width: 48%;
+	background-color: #F5F5F5;
+}
+.post {
+	background-color: White;
+}
+.post_1 {
+	background-color: White;
+	width: 70%;
+}
+.asterisk {
+	color: red;	
+}
+
+.msg{
+	color: red;
+}
+.msg1{
+	color: green;
+}
+.msgstrong{
+	color: red;
+	font-weight: bold;
+}
+/* message box*/
+.msgbox {
+   width: 500px;
+   border: 1px solid #D8D8D8;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 10px 10px 5px #888888;
+   text-transform: uppercase;
+   font-family: Arial;
+   font-size: 1.0em;
+   background-color: #ECF0F5;
+   color: #DAB62A;  
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.msgbox a {
+	text-decoration: none;	
+}
+.msgcenter{
+	padding-left: 220px;	
+}
+
+/*contact page settings*/	
+#contact_border 
+{
+ font-size:11pt;
+ border: 1px solid #CCCCCC;
+ margin: 5px 0px 5px 0px;
+ background-color: #fffffe;
+ min-height: 106px;
+ width: 100%;
+}
+.contact_table {
+	width: 100%; 
+	background-color: white; 
+}
+.contact_content {
+	width: 100%;
+	height: 550px;
+	padding-left: 0;
+}
+.subject_align {
+	padding: 3px;
+}
+.submit_align {
+	padding-left: 274px;
+}
+.reset_align {
+	padding-left: 50px;
+}
+
+/*register page settings*/
+.register_content {
+	width: 100%;
+	height: 500px;
+	padding-left: 0;
+	/*padding-top: 20px;*/
+}
+
+/*find password*/
+.findpassword_content {
+	width: 80%;
+	height: 60px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+/* profile */
+.profile_content {
+	width: 100%;
+	height: 600px;
+	padding-left: 0;	
+}
+
+.profile_content a {
+	text-decoration: none;
+}
+
+/* footer1 - table footer */
+.footer1 {
+	text-align: center;
+	font-size: 12px;
+	height: 28px;
+	background-color: #f4f4f4;
+}
+
+/*about page settings*/
+.about_content {
+	width: 85%;
+	padding-left: 150px;	
+}
+#about_img {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#about_about {
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.footer1 select, .footer1 td {
+	font-size: 12px;
+}
+
+/*input settings*/
+.inputbox{
+  width: 80px;
+  height: 15px;
+  font-size: 1em;
+  border-radius: 3px;
+}
+
+/*addresses box-sizing in different browsers*/
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    height: 13px;
+    width: 13px;
+}
+
+input[type=text],input[type="search"],div.span {
+    box-sizing: content-box;
+}
+
+/*input glow effect*/
+/*source: css-tricks.com/snippets/css/glowing-blue-input-highlights */
+input[type=text]:focus,input[type=password]:focus,textarea:focus{	
+    transition:border linear .2s,box-shadow linear .5s;
+    outline:none;border-color:rgba(67,190,249,.75);
+    box-shadow:0 0 8px rgba(67,190,249,.5);    
+}
+
+.loginpanel_align {
+	padding-top: 7px;
+}
+.loginpanel_dimension {
+	border: 0;
+	overflow: hidden;
+}
+
+/* setting the login panel on the header */
+#login{
+	width:300px;
+	height:100px;
+	float:right;
+}
+#login tr td {
+	padding: 10px 10px 1px 5px;
+}
+
+.login_reg_align { /*chrome*/
+	padding-left: 47px;
+}
+.login_reg_align1{ /*firefox, ie, etc*/	
+	padding-left: 76px;
+}
