@@ -1,4 +1,4 @@
--- Create by Fred Yang. 2016-10-05
+-- Created by Fred Yang. 2016-10-05
 
 -- GHG Schema
 USE [ghgdb];
